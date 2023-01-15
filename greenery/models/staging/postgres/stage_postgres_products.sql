@@ -1,9 +1,3 @@
-{{
-    config(
-        materialized = 'table'
-    )
-}}
-
 WITH src_products AS (
     SELECT * FROM {{ source('postgres', 'products') }}
 )
