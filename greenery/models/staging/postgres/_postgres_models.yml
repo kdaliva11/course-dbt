@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stage_postgres_promos
+    description: A table with all promotions. 
+
+  - name: stage_postgres_users
+    description: A table with all users. 
+
+  - name: stage_postgres_addresses
+    description: A table with all user addresses.
+
+  - name: stage_postgres_events
+    description: A table with all unique events on the platform.
+
+  - name: stage_postgres_orders.
+    description: A table with all orders on the platform. 
+
+  - name: stage_postgres_products
+    description: A table with all products on the platform. 
+
+  - name: stage_postgres_order_items
+    description: A table with all information about individual orders.
+    
