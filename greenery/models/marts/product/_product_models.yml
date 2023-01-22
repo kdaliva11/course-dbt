@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: fact_page_views
+    description: information about how different products perform including daily page views by product, daily orders by product, etc. 

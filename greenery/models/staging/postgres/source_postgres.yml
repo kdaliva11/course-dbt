@@ -4,6 +4,11 @@ sources:
   - name: postgres
     database: raw 
     schema: public
+
+    freshness:
+      warn_after: {count: 24, period: hour}
+      error_after: {count: 48, period: hour}
+
     tables: 
       - name: orders 
       - name: addresses

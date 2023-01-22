@@ -1,0 +1,5 @@
+version: 2
+
+models: 
+  - name: int_user_level_orders
+    description: An aggregation of order information at the user level 

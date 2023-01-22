@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fact_orders
+    description: Contains all information about orders
+
+  - name: dim_products
+    description: Contains all information about products
+
+  - name: dim_users
+    description: contains all information about users including addresses and basic information about them

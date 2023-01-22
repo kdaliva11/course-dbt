@@ -1,0 +1,6 @@
+version: 2
+
+models: 
+  - name: user_order_facts
+    description: Information about orders at the user level including most first/most recent order, total orders, total spend, etc.
+    
